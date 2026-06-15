@@ -18,6 +18,7 @@ jobs:
           JF_URL: ${{ vars.JF_URL }}
         with:
           oidc-provider-name: yurinovo18/yurin-calculator@github
+          version: latest
 
       - name: Run JFrog CLI
         run: |
